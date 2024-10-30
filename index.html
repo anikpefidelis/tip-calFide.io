@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator app</title>
+</head>
+<body>
+    <h2 class="tittle">
+        Spil <br> tter
+    </h2>
+    <div class="card">
+        <div class="card-container">
+            <div class="input-section">
+                <div class="bill-sec">
+                    <label for ="bill">Bill</label>
+                    <div class="bill-input">
+                        <input type="text" placeholder="0" id="bill">
+                    </div> 
+               </div>
+               <img src="icon-dollar.svg" alt="dollar">
+            </div>
+        </div>
+        <div class="tip-sec">
+            <label for="tip">Select Tips %</label>
+            <div class="tip-Btn">
+        </div>
+        <button>5%</button>
+        <button>10%</button>
+        <button>15%</button>
+        </div>
+        <button>25%</button>
+        <button>50%</button>
+        <input type="number" placeholder="custom" id="custom">
+    </div>
+    </div>
+    <div class="people-sec">
+        <label for="people">Number of people</label>
+        <div class="people-input">
+            <input type="text" placeholder="0" id=people">
+            <img src="icon-person.svg" alt="person">
+        </div>
+    </div>
+    <div class="output-section">
+        <div class="tip-amount">
+            <p>Tip Amount</p>
+            <span>/person</span>
+            <h2 id="TipAmount">$0.00</h2>
+        </div>
+        <div class="Total">
+            <p>Total</p>
+            <span>/person</span>
+            <h2 id="total">$0.00</h2>
+        </div>
+        <button class="reset">RESET</button>
+    </div>
+    
+</body>
+</html>

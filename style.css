@@ -1,0 +1,194 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+
+.tittle {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+.card {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+.bill-sec {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.bill-sec label {
+  margin-right: 10px;
+}
+
+.bill-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.bill-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+
+.tip-sec {
+  margin-bottom: 20px;
+}
+
+.tip-sec label {
+  margin-bottom: 10px;
+}
+
+.tip-Btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.tip-Btn button {
+  width: 23%;
+  height: 30px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tip-Btn button:hover {
+  background-color: #3e8e41;
+}
+
+#custom {
+  width: 23%;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.people-sec {
+  margin-bottom: 20px;
+}
+
+.people-sec label {
+  margin-bottom: 10px;
+}
+
+.people-input {
+  position: relative;
+}
+
+.people-input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.people-input img {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
+
+
+.output-section {
+  margin-top: 20px;
+}
+
+.tip-amount, .Total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.tip-amount p, .Total p {
+  font-size: 18px;
+  color: #666;
+}
+
+.tip-amount span, .Total span {
+  font-size: 14px;
+  color: #999;
+}
+
+.tip-amount h2, .Total h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.reset {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #3e8e41;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+  .card {
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    margin: 10px auto;
+  }
+  .bill-input input {
+    height: 30px;
+  }
+}
+
